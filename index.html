@@ -32,67 +32,68 @@
                 <!-- div for memory -->
                 <div class="mt-5">
                     <h3 class="fs-5">Memory</h3>
-                    <button type="button" class="btn btn-outline-dark">8GB unified memory</button>
-                    <button type="button" class="btn btn-outline-dark">16GB unified memory</button>
+                    <button id="basic-memory" type="button" class="btn btn-outline-dark">8GB unified memory</button>
+                    <button id="premium-memory" type="button" class="btn btn-outline-dark">16GB unified memory</button>
                 </div>
                 <!-- div for storage -->
                 <div class="mt-5">
                     <h3 class="fs-5">Storage</h3>
-                    <button type="button" class="btn btn-outline-dark">
+                    <button id="basic-storage" type="button" class="btn btn-outline-dark">
                         256GB SSD storage</button>
-                    <button type="button" class="btn btn-outline-dark">
+                    <button id="medium-storage" type="button" class="btn btn-outline-dark">
                         512GB SSD storage</button>
-                    <button type="button" class="btn btn-outline-dark">1TB SSD storage</button>
+                    <button id="premium-storage" type="button" class="btn btn-outline-dark">1TB SSD storage</button>
                 </div>
                 <!-- div for delivery -->
                 <div class="mt-5">
                     <h3 class="fs-5">Choose your delivery option</h3>
-                    <button type="button" class="btn btn-outline-dark">Wednesday,Aug 25 FREE Prime
+                    <button id="free-delivery" type="button" class="btn btn-outline-dark">Wednesday,Aug 25 FREE Prime
                         Delivery</button>
-                    <button type="button" class="btn btn-outline-dark">Saturday,Aug 21 Delivery charge
+                    <button id="paid-delivery" type="button" class="btn btn-outline-dark">Saturday,Aug 21 Delivery
+                        charge
                         $20</button>
                 </div>
                 <!-- price making div -->
                 <div class="row mt-4 fw-bold fs-6">
                     <div class="row col-7">
                         <div class="col-7">Best Price</div>
-                        <div class="col-5"><span>$</span><span>1299</span></div>
+                        <div class="col-5"><span>$</span><span id="best-price">1299</span></div>
                         <hr class="my-2 text-black-50">
                     </div>
 
                     <div class="row col-7">
                         <div class="col-7">Extra Memory Cost</div>
-                        <div class="col-5"><span>$</span><span>0</span></div>
+                        <div class="col-5"><span>$</span><span id="memory-cost">0</span></div>
                         <hr class="my-2 text-black-50">
                     </div>
                     <div class="row col-7">
                         <div class="col-7">Extra Storage Cost</div>
-                        <div class="col-5"><span>$</span><span>0</span></div>
+                        <div class="col-5"><span>$</span><span id="storage-cost">0</span></div>
                         <hr class="my-2 text-black-50">
                     </div>
                     <div class="row col-7">
                         <div class="col-7">Delivery charge</div>
-                        <div class="col-5"><span>$</span><span>0</span></div>
+                        <div class="col-5"><span>$</span><span id="delivery-charge">0</span></div>
                         <hr class="my-2 text-dark border border-dark">
                     </div>
 
                     <div class="row col-7">
                         <div class="col-7">Total Price</div>
-                        <div class="col-5"><span>$</span><span>1299</span></div>
+                        <div class="col-5"><span>$</span><span id="total-price">1299</span></div>
                     </div>
                 </div>
                 <!-- promo code -->
                 <div class="mt-4 mb-3">
                     <h6>Add Promo Code</h6>
                     <div class="input-group w-50">
-                        <input class="form-control " type="text" name="" id="">
-                        <button type="button" class="btn btn-danger rounded">Apply</button>
+                        <input class="form-control " type="text" name="" id="promo-code-input">
+                        <button type="button" class="btn btn-danger rounded" id="promo-code-button">Apply</button>
                     </div>
                 </div>
             </div>
             <hr>
             <div class="text-center  fw-bold mb-4">
-                <h5 class="fs-2">Total: $<span>1299</span></h5>
+                <h5 class="fs-2">Total: $<span id="total-promo-price">1299</span></h5>
             </div>
         </div>
     </section>
